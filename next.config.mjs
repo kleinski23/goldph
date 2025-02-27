@@ -1,6 +1,5 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const config = {
   output: 'standalone',
   reactStrictMode: true,
   swcMinify: true,
@@ -18,7 +17,7 @@ const nextConfig: NextConfig = {
   // Enable compression
   compress: true,
   // Configure webpack for better performance
-  webpack: (config, { dev, isServer }) => {
+  webpack(config, { dev, isServer }) {
     // Optimize production builds
     if (!dev && !isServer) {
       Object.assign(config.optimization.splitChunks.cacheGroups, {
@@ -33,4 +32,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+export default config;
