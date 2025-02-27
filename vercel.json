@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "buildCommand": "next build",
+  "devCommand": "next dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "regions": ["sin1"],
+  "github": {
+    "silent": true,
+    "autoAlias": true,
+    "enabled": true
+  }
+} 
