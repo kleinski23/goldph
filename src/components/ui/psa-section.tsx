@@ -95,7 +95,7 @@ export function PSASection() {
             These resources are widely recognized for their reliability and serve as a solid basis for verifying economic and fiscal data.
           </p>
           <p className="text-sm text-neutral-600 dark:text-neutral-400 mt-6 italic">
-            This is a personal side project but I am planning provide update and add more useful features in the future. If you have suggestions or feedback, please use the feedback button at the top. If you'd like to support server fees or buy me a coffee, you can do so here:
+            This is a personal side project but I am planning to provide updates and add more useful features in the future. If you have suggestions or feedback, please use the feedback button at the top. If you'd like to support server fees or buy me a coffee, you can do so here:
             <br /> <br></br>
             <a 
               href="https://buymeacoffee.com/kalmado420" 
