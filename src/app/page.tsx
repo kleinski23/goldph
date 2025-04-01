@@ -7,7 +7,6 @@ import { ErrorBoundary } from '@/components/ui/error-boundary';
 import { MarqueeDemo } from '@/components/ui/marquee-demo';
 import { PSASection } from '@/components/ui/psa-section';
 import { Header } from '@/components/ui/header';
-import { Sidebar } from '@/components/ui/sidebar';
 import { HeroSection } from '@/components/ui/hero-section';
 import { Background } from '@/components/ui/background';
 import { NationalDebtAnalysisDialog } from "@/components/ui/national-debt-analysis-dialog"
@@ -17,8 +16,7 @@ export default function Home() {
     <div className="min-h-screen">
       <Background />
       <Header />
-      <Sidebar />
-      <div className="pl-[300px] transition-all duration-300"> {/* Changed from pr to pl */}
+      <div className="transition-all duration-300">
         <main className="max-w-[1400px] mx-auto p-8 pb-20 sm:p-20">
           <ErrorBoundary fallback={<div>Error loading hero</div>}>
             <HeroSection />
